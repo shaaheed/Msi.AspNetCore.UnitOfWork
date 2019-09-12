@@ -84,7 +84,7 @@ namespace Msi.AspNetCore.UnitOfWork
             return services.AddUnitOfWork(typeof(TDataContext), typeof(TDataContextOptions));
         }
 
-        public static IServiceCollection AddPersistence<TDataContext>(this IServiceCollection services, string connectionString)
+        public static IServiceCollection AddUnitOfWork<TDataContext>(this IServiceCollection services, string connectionString)
             where TDataContext : DbContext, IDataContext
         {
             return services.AddUnitOfWork(typeof(TDataContext), connectionString);
