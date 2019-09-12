@@ -8,8 +8,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Copyright>Sahidul Islam</Copyright>
-    <PackageProjectUrl>https://github.com/shaaheed/AspNetCore.UnitOfWork</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/shaaheed/AspNetCore.UnitOfWork</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/shaaheed/Msi.AspNetCore.UnitOfWork</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shaaheed/Msi.AspNetCore.UnitOfWork</RepositoryUrl>
     <PackageTags>UnitOfWork, Repository, AspNetCore, EntityFrameworkCore</PackageTags>
     <PackageId>Msi.AspNetCore.UnitOfWork</PackageId>
     <Product>Msi.AspNetCore.UnitOfWork</Product>
