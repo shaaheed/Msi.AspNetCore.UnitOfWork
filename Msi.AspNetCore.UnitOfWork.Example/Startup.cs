@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Msi.AspNetCore.UnitOfWork;
 
 namespace AspNetCore.UnitOfWork.Example
 {

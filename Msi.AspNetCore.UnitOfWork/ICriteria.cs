@@ -1,8 +1,8 @@
 ﻿using System.Linq;
 
-namespace AspNetCore.UnitOfWork
+namespace Msi.AspNetCore.UnitOfWork
 {
-    public interface ICriteria<TEntity> where TEntity : IEntity
+    public interface ICriteria<TEntity> where TEntity : class
     {
 
         IQueryable<TEntity> Execute(IQueryable<TEntity> entities);

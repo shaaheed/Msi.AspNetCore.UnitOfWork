@@ -2,7 +2,7 @@
 
 namespace AspNetCore.UnitOfWork.Example.Models
 {
-    public class BaseEntity : IEntity
+    public class BaseEntity
     {
 
         public DateTime CreatedAt { get; set; }

@@ -7,11 +7,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AspNetCore.UnitOfWork\AspNetCore.UnitOfWork.csproj" />
+    <ProjectReference Include="..\Msi.AspNetCore.UnitOfWork\Msi.AspNetCore.UnitOfWork.csproj" />
   </ItemGroup>
 
 </Project>

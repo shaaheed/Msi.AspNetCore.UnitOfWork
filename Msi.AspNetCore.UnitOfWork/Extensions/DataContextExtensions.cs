@@ -6,7 +6,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace AspNetCore.UnitOfWork
+namespace Msi.AspNetCore.UnitOfWork
 {
     public static class DataContextExtensions
     {

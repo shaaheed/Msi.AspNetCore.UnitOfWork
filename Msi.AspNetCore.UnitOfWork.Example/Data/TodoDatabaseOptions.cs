@@ -1,4 +1,4 @@
-﻿using AspNetCore.UnitOfWork;
+﻿using Msi.AspNetCore.UnitOfWork;
 
 namespace AspNetCore.UnitOfWork.Example.Data
 {

@@ -5,6 +5,14 @@
     <Authors>Sahidul Islam</Authors>
     <Description>UnitOfWork, Repository pattern implementation for ASP.NET Core data accesss layer.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Copyright>Sahidul Islam</Copyright>
+    <PackageProjectUrl>https://github.com/shaaheed/AspNetCore.UnitOfWork</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/shaaheed/AspNetCore.UnitOfWork</RepositoryUrl>
+    <PackageTags>UnitOfWork, Repository, AspNetCore, EntityFrameworkCore</PackageTags>
+    <PackageId>Msi.AspNetCore.UnitOfWork</PackageId>
+    <Product>Msi.AspNetCore.UnitOfWork</Product>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AspNetCore.UnitOfWork
+namespace Msi.AspNetCore.UnitOfWork
 {
     public class UnitOfWork<TDataContext> : IUnitOfWork<TDataContext> where TDataContext : IDataContext
     {
@@ -22,7 +22,7 @@ namespace AspNetCore.UnitOfWork
             return _dataContext.SaveChangesAsync(cancellationToken);
         }
 
-        public IRepository<TSet> GetRepository<TSet>() where TSet : class, IEntity
+        public IRepository<TSet> GetRepository<TSet>() where TSet : class
         {
             if (_repositories.ContainsKey(typeof(TSet)))
             {

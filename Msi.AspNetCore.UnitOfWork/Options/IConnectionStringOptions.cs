@@ -1,4 +1,4 @@
-﻿namespace AspNetCore.UnitOfWork
+﻿namespace Msi.AspNetCore.UnitOfWork
 {
     public interface IConnectionStringOptions
     {

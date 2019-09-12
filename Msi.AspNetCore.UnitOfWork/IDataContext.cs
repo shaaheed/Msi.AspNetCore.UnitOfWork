@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AspNetCore.UnitOfWork
+namespace Msi.AspNetCore.UnitOfWork
 {
     public interface IDataContext
     {

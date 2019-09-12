@@ -6,9 +6,9 @@ using System.Linq.Expressions;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace AspNetCore.UnitOfWork
+namespace Msi.AspNetCore.UnitOfWork
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class, IEntity
+    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
     {
 
         private readonly IDataContext _dataContext;

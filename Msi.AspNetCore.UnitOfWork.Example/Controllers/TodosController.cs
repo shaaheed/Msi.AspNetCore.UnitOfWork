@@ -4,6 +4,7 @@ using AspNetCore.UnitOfWork.Example.Data;
 using AspNetCore.UnitOfWork.Example.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Msi.AspNetCore.UnitOfWork;
 
 namespace AspNetCore.UnitOfWork.Example.Controllers
 {

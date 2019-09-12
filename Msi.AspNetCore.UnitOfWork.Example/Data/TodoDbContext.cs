@@ -1,5 +1,6 @@
 ﻿using AspNetCore.UnitOfWork.Example.Models;
 using Microsoft.EntityFrameworkCore;
+using Msi.AspNetCore.UnitOfWork;
 
 namespace AspNetCore.UnitOfWork.Example.Data
 {
